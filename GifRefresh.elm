@@ -65,7 +65,7 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
+    div [ class "jumbotron" ]
         [ h2 [] [ text "Start typing to see a new gif!" ]
         , input [ type_ "text", placeholder "Topic", onInput NewTopic ] []
         , button [ onClick MorePlease ] [ text "Moar!" ]
