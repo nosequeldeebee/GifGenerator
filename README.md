@@ -1,6 +1,6 @@
 # GifGenerator
 
-A web app that dynamically refreshes gifs based on text input. [Try it!](http://trink.io:9090)
+A web app that dynamically refreshes gifs based on text input. 
 
 Written in [Elm](http://elm-lang.org/)
 
